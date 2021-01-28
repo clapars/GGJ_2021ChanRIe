@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GGJ2021/Scenes/partatest.unity
+    guid: 288e988dd38ac45df85c41fa1d980671
   m_configObjects: {}
