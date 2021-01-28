@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SimpleStar
-  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _ALPHATEST_ON _COLORADDSUBDIFF_ON _EMISSION
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -65,7 +65,7 @@ Material:
     - _CameraNearFadeDistance: 1
     - _ColorMode: 1
     - _Cull: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0.216
     - _DetailNormalMapScale: 1
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
@@ -77,8 +77,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightingEnabled: 0
-    - _Metallic: 0
+    - _LightingEnabled: 1
+    - _Metallic: 0.328
     - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -92,7 +92,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _Color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 2.6390157, g: 2.6390157, b: 2.6390157, a: 1}
+    - _EmissionColor: {r: 2.1851254, g: 2.1952736, b: 2.5593731, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
