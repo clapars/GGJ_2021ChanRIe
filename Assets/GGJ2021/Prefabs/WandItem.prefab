@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 0
-  itemName: "\u30DE\u30B8\u30E7\u30AB\u30A2\u30A4\u30EA\u30B9"
+  itemName: "\u30DE\u30B8\u30E7\u306E\u30A2\u30A4\u30C6\u30E0"
 --- !u!54 &8931566751651981055
 Rigidbody:
   m_ObjectHideFlags: 0
