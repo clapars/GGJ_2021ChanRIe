@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 358482730352323928}
   - component: {fileID: 358482730352323926}
   m_Layer: 20
-  m_Name: "LyricItem01_[\u65B0\u3057\u3044\u604B\u306E\u4E88\u611F\u3001\u307E\u3063\u305F\u304F\u3057\u306A\u3044]"
+  m_Name: "LyricItem1_a_[\u73FE\u72B6\u3068\u3057\u3066\u306F\u3001 \u604B\u611B\u30ED\u30B9\u30C8\u4E2D]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 0
-  itemName: Lylic00
+  itemName: Lylic1_a
 --- !u!114 &358482730352323931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7469435659622171346}
-  m_Text: "\u65B0\u3057\u3044\u604B\u306E\u4E88\u611F\u3001\u307E\u3063\u305F\u304F\u3057\u306A\u3044"
+  m_Text: "\u73FE\u72B6\u3068\u3057\u3066\u306F\u3001\u604B\u611B\u30ED\u30B9\u30C8\u4E2D"
   m_OffsetZ: 0
   m_CharacterSize: 0.2
   m_LineSpacing: 1
