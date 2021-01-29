@@ -18,7 +18,8 @@ GameObject:
   - component: {fileID: 358482730352323928}
   - component: {fileID: 358482730352323926}
   m_Layer: 20
-  m_Name: "LyricItem1_a_[\u73FE\u72B6\u3068\u3057\u3066\u306F\u3001 \u604B\u611B\u30ED\u30B9\u30C8\u4E2D]"
+  m_Name: "LyricItem1_a[\u6368\u3066\u305F\u6368\u3066\u305F\u306E \u3042\u306E\u30AF\u30BA\u7537
+    \u307D\u3044\u307D\u3044\u307D\u30FC\u3044 \u305D\u3046\u3057\u305F\u3089]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 358482730352323923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 4, z: 20}
-  m_LocalScale: {x: 10, y: 0.75, z: 1}
+  m_LocalScale: {x: 10, y: 1.5, z: 1}
   m_Children:
   - {fileID: 4446256739924437742}
   m_Father: {fileID: 0}
@@ -213,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 7469435659622171346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.6}
-  m_LocalScale: {x: 0.06, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 358482730352323922}
   m_RootOrder: 0
@@ -265,9 +266,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7469435659622171346}
-  m_Text: "\u73FE\u72B6\u3068\u3057\u3066\u306F\u3001\u604B\u611B\u30ED\u30B9\u30C8\u4E2D"
+  m_Text: "\u6368\u3066\u305F\u6368\u3066\u305F\u306E\u3042\u306E\u30AF\u30BA\u7537\u307D\u3044\u307D\u3044\u307D\u30FC\u3044\u305D\u3046\u3057\u305F\u3089"
   m_OffsetZ: 0
-  m_CharacterSize: 0.2
+  m_CharacterSize: 0.15
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
