@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
   m_Name: ColorGrading
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1377,7 +1377,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2.71
+    value: 0.97
   color:
     overrideState: 1
     value: {r: 0.010715822, g: 0, b: 0.122641504, a: 1}
@@ -1395,7 +1395,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1.15
+    value: 5.94
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -1423,25 +1423,25 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2.51
+    value: 4.16
   threshold:
     overrideState: 1
-    value: 0.1
+    value: 0.52
   softKnee:
-    overrideState: 0
-    value: 0.5
+    overrideState: 1
+    value: 0.218
   clamp:
     overrideState: 0
     value: 65472
   diffusion:
-    overrideState: 0
-    value: 7
+    overrideState: 1
+    value: 5.06
   anamorphicRatio:
     overrideState: 0
     value: 0
   color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 1.1016647, g: 1.1028894, b: 1.319508, a: 1}
   fastMode:
     overrideState: 0
     value: 0
