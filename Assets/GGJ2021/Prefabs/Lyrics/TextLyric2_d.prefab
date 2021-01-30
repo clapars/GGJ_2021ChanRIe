@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8580372473950853260}
   - component: {fileID: 8580372473950853263}
   - component: {fileID: 8580372473950853262}
+  - component: {fileID: -7613486530994273532}
+  - component: {fileID: 196846841118508950}
   m_Layer: 0
   m_Name: TextLyric2_d
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8580372473950854001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 6, z: 19}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -109,3 +111,35 @@ MonoBehaviour:
   id:
     value: 0
   itemName: "\u30A2\u30A4\u30C6\u30E0"
+--- !u!114 &-7613486530994273532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8580372473950854001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8580372473950853262}
+  key:
+    target: 2
+    key: Destry_text
+--- !u!114 &196846841118508950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8580372473950854001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8580372473950853262}
+  key:
+    target: 2
+    key: Destory_2_d
