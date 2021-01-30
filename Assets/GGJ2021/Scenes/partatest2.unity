@@ -730,7 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 18154289197814266833
-  itemName: Lyric_1_a
+  itemName: "\u30E1\u30AC\u30CD\u30E1\u30AC\u30CD\u306E..."
 --- !u!135 &232095701
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2504,7 +2504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 8171542649578842890
-  itemName: Lyric_1_a
+  itemName: "\u5C11\u3057\u3067\u3044\u3044\u304B\u3089..."
 --- !u!4 &657989566
 Transform:
   m_ObjectHideFlags: 0
@@ -2658,7 +2658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 11037959094020954006
-  itemName: Lyric_1_a
+  itemName: "\u3064\u306A\u3044\u3060\u3064\u306A\u3044\u3060..."
 --- !u!135 &711555859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3308,7 +3308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 12465402424685729394
-  itemName: Lyric_1_a
+  itemName: "\u6368\u3066\u305F\u6368\u3066\u305F\u306E..."
 --- !u!135 &871367290
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 16841613322510989008
-  itemName: Lyric_1_a
+  itemName: "\u304A\u3057\u3083\u308C\u304A\u3057\u3083\u308C\u306A..."
 --- !u!4 &989534906
 Transform:
   m_ObjectHideFlags: 0
@@ -7236,7 +7236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 583894630326536224
-  itemName: Lyric_1_a
+  itemName: "\u65B0\u3057\u3044SNS\u3067..."
 --- !u!135 &1809800765
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7456,7 +7456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 7909414421507234054
-  itemName: Lyric_1_a
+  itemName: "\u3042\u3052\u3066\u3084\u3063\u305F\u3088..."
 --- !u!4 &1872996212
 Transform:
   m_ObjectHideFlags: 0
@@ -8453,7 +8453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 16084414861235192197
-  itemName: Lyric_1_a
+  itemName: "\u6368\u3066\u305F\u6368\u3066\u305F\u306E..."
 --- !u!4 &2111170964
 Transform:
   m_ObjectHideFlags: 0
