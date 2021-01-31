@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 358482730352323931}
   - component: {fileID: 358482730352323928}
   - component: {fileID: 358482730352323926}
+  - component: {fileID: -5468480718883395308}
   m_Layer: 20
   m_Name: "LyricItem2_d[\u3042\u3052\u3066\u3084\u3063\u305F\u3088\u30AE\u30C3\u30C8\u30CF\u30D6\u307F\u3093\u306A\u306B\u79D8\u5BC6\u30D0\u30E9\u3057\u3061\u3083\u3063\u305F\u3088\uFF01\u30D8\u30A4\uFF01]"
   m_TagString: Untagged
@@ -186,6 +187,22 @@ MonoBehaviour:
       boolValue: 1
       floatValue: 0
       integerValue: 0
+--- !u!114 &-5468480718883395308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358482730352323923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 358482730352323930}
+  key:
+    target: 2
+    key: Destroy_text
 --- !u!1 &7469435659622171346
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +253,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95a59dece6dbf4391982c9f00a2acdfd, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -275,7 +292,7 @@ TextMesh:
   m_FontSize: 32
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 95a59dece6dbf4391982c9f00a2acdfd, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295

@@ -126,7 +126,7 @@ MonoBehaviour:
   item: {fileID: 5486705797159601041}
   key:
     target: 2
-    key: Destry_text
+    key: Destroy_text
 --- !u!114 &-8820480424486675213
 MonoBehaviour:
   m_ObjectHideFlags: 0

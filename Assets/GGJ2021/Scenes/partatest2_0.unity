@@ -14,17 +14,17 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.34200537, g: 0.2723389, b: 0.3773585, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0015
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 3681c42604d20c4459d69816ee28217e, type: 2}
   m_HaloStrength: 0.5
@@ -32,11 +32,11 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
-  m_CustomReflection: {fileID: 0}
+  m_CustomReflection: {fileID: 8900000, guid: 9dcd64f7ad5917c44bc51774de456062, type: 3}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.0748557, g: 0.055270202, b: 0.12765321, a: 1}
   m_UseRadianceAmbientProbe: 0
@@ -51,7 +51,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 12
@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &16788791
 Transform:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &40176004
 Transform:
   m_ObjectHideFlags: 0
@@ -621,7 +621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &123098358
 Transform:
   m_ObjectHideFlags: 0
@@ -807,7 +807,6 @@ GameObject:
   - component: {fileID: 232095695}
   - component: {fileID: 232095703}
   - component: {fileID: 232095701}
-  - component: {fileID: 232095704}
   m_Layer: 14
   m_Name: Lyric1_b
   m_TagString: Untagged
@@ -929,7 +928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 18154289197814266833
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u30E1\u30AC\u30CD\u30E1\u30AC\u30CD\u306E..."
 --- !u!135 &232095701
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -983,24 +982,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &232095704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232095694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 232095698}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &253182119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1092,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &260142800
 Transform:
   m_ObjectHideFlags: 0
@@ -1695,20 +1676,13 @@ GameObject:
   - component: {fileID: 407946483}
   - component: {fileID: 407946482}
   - component: {fileID: 407946481}
-  - component: {fileID: 407946488}
-  - component: {fileID: 407946491}
   - component: {fileID: 407946479}
   - component: {fileID: 407946487}
   - component: {fileID: 407946486}
   - component: {fileID: 407946478}
-  - component: {fileID: 407946493}
-  - component: {fileID: 407946492}
-  - component: {fileID: 407946490}
-  - component: {fileID: 407946489}
+  - component: {fileID: 407946488}
+  - component: {fileID: 407946491}
   - component: {fileID: 407946480}
-  - component: {fileID: 407946496}
-  - component: {fileID: 407946495}
-  - component: {fileID: 407946494}
   m_Layer: 14
   m_Name: LyricSpawnSw_a
   m_TagString: Untagged
@@ -1723,7 +1697,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1731,7 +1705,7 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Hit_1_d
+    key: Hit_1_d0
   itemTemplate: {fileID: 358482730352323930, guid: 8e98f99b3b3604fff89d2c0216358c7d,
     type: 3}
   itemTemplateId:
@@ -1744,7 +1718,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1752,7 +1726,7 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Hit_1_a
+    key: Hit_1_a0
   itemTemplate: {fileID: 358482730352323930, guid: e6692194263e84ff9bd759875181d4cb,
     type: 3}
   itemTemplateId:
@@ -1870,7 +1844,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1878,7 +1852,7 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Hit_1_c
+    key: Hit_1_c0
   itemTemplate: {fileID: 358482730352323930, guid: 93e3c7bbf19507947b24afffd0d25f14,
     type: 3}
   itemTemplateId:
@@ -1891,7 +1865,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1899,7 +1873,7 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Hit_1_b
+    key: Hit_1_b0
   itemTemplate: {fileID: 358482730352323930, guid: 92207c0768b8aa549ac4449e47470dc4,
     type: 3}
   itemTemplateId:
@@ -1912,7 +1886,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1920,54 +1894,12 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Active_1_a0
+    key: Active_1_a
   itemTemplate: {fileID: 5796450445454436000, guid: 0c5c31ac178f7034da87f9fd40ff6f4e,
     type: 3}
   itemTemplateId:
     value: 7770384633919186493
   spawnPoint: {fileID: 846141638}
---- !u!114 &407946489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  key:
-    target: 0
-    key: Hit_2_d
-  itemTemplate: {fileID: 358482730352323930, guid: 92107cdd103eb45febbfe7c8efbc20dc,
-    type: 3}
-  itemTemplateId:
-    value: 426032683598014546
-  spawnPoint: {fileID: 534579193}
---- !u!114 &407946490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  key:
-    target: 0
-    key: Hit_2_c
-  itemTemplate: {fileID: 358482730352323930, guid: 64d1699c97d81480c8481569ecada8e4,
-    type: 3}
-  itemTemplateId:
-    value: 13451192065151918596
-  spawnPoint: {fileID: 534579193}
 --- !u!114 &407946491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1975,7 +1907,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407946477}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -1983,108 +1915,12 @@ MonoBehaviour:
   item: {fileID: 407946481}
   key:
     target: 0
-    key: Active_2_a0
+    key: Active_2_a
   itemTemplate: {fileID: 3116907765808841991, guid: 6672158687e810649914a71f76c0b396,
     type: 3}
   itemTemplateId:
     value: 820938132026952983
   spawnPoint: {fileID: 837244088}
---- !u!114 &407946492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  key:
-    target: 0
-    key: Hit_2_b
-  itemTemplate: {fileID: 358482730352323930, guid: 37f87cfc6faf94ce6989d5f1a0136c30,
-    type: 3}
-  itemTemplateId:
-    value: 5289254758461979941
-  spawnPoint: {fileID: 534579193}
---- !u!114 &407946493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  key:
-    target: 0
-    key: Hit_2_a
-  itemTemplate: {fileID: 358482730352323930, guid: 7871a6931a6754fd3a3f2b66ee32f407,
-    type: 3}
-  itemTemplateId:
-    value: 9863832968545911742
-  spawnPoint: {fileID: 534579193}
---- !u!114 &407946494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  collisionEventType: 0
-  collisionType: 1
-  triggers:
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: Warp_Lyric
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
---- !u!114 &407946495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 557c1287071b147459bb6f001560c6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 407946481}
-  rb: {fileID: 407946496}
---- !u!54 &407946496
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407946477}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &411808305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +1938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &411808306
 Transform:
   m_ObjectHideFlags: 0
@@ -3253,7 +3089,6 @@ GameObject:
   - component: {fileID: 657989560}
   - component: {fileID: 657989567}
   - component: {fileID: 657989559}
-  - component: {fileID: 657989568}
   m_Layer: 14
   m_Name: Lyric2_c
   m_TagString: Untagged
@@ -3388,7 +3223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 8171542649578842890
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u5C11\u3057\u3067\u3044\u3044\u304B\u3089..."
 --- !u!4 &657989566
 Transform:
   m_ObjectHideFlags: 0
@@ -3429,24 +3264,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &657989568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657989558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 657989563}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &683193892
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,7 +3470,7 @@ MonoBehaviour:
   triggers:
   - target: 4
     specifiedTargetItem: {fileID: 0}
-    key: Destroy_text
+    key: Destry_text
     type: 0
     value:
       boolValue: 0
@@ -3836,7 +3653,6 @@ GameObject:
   - component: {fileID: 711555853}
   - component: {fileID: 711555861}
   - component: {fileID: 711555859}
-  - component: {fileID: 711555862}
   m_Layer: 14
   m_Name: Lyric1_d
   m_TagString: Untagged
@@ -3958,7 +3774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 11037959094020954006
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u3064\u306A\u3044\u3060\u3064\u306A\u3044\u3060..."
 --- !u!135 &711555859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4012,24 +3828,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &711555862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711555852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 711555856}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1001 &718007111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4736,7 +4534,6 @@ GameObject:
   - component: {fileID: 871367284}
   - component: {fileID: 871367291}
   - component: {fileID: 871367290}
-  - component: {fileID: 871367292}
   m_Layer: 14
   m_Name: Lyric1_a
   m_TagString: Untagged
@@ -4858,7 +4655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 12465402424685729394
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u6368\u3066\u305F\u6368\u3066\u305F\u306E..."
 --- !u!135 &871367290
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4896,24 +4693,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &871367292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871367283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 871367287}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!4 &871367293
 Transform:
   m_ObjectHideFlags: 0
@@ -5213,7 +4992,6 @@ GameObject:
   - component: {fileID: 989534900}
   - component: {fileID: 989534907}
   - component: {fileID: 989534899}
-  - component: {fileID: 989534908}
   m_Layer: 14
   m_Name: Lyric2_b
   m_TagString: Untagged
@@ -5348,7 +5126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 16841613322510989008
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u304A\u3057\u3083\u308C\u304A\u3057\u3083\u308C\u306A..."
 --- !u!4 &989534906
 Transform:
   m_ObjectHideFlags: 0
@@ -5389,24 +5167,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &989534908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989534898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 989534903}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &999203645
 GameObject:
   m_ObjectHideFlags: 0
@@ -6225,7 +5985,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1311644922
 Transform:
   m_ObjectHideFlags: 0
@@ -6381,7 +6141,7 @@ PrefabInstance:
     - target: {fileID: 7353161219008609271, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219008609271, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6481,7 +6241,7 @@ PrefabInstance:
     - target: {fileID: 7353161219264822479, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219264822479, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6511,7 +6271,7 @@ PrefabInstance:
     - target: {fileID: 7353161219307305706, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219307305706, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6538,10 +6298,15 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7353161219444344816, guid: 0343ad7a21544fe489a8837864a0e16f,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353161219444344818, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219444344818, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6576,7 +6341,7 @@ PrefabInstance:
     - target: {fileID: 7353161219533153013, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219533153013, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6586,7 +6351,7 @@ PrefabInstance:
     - target: {fileID: 7353161219560302905, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219560302905, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6626,7 +6391,7 @@ PrefabInstance:
     - target: {fileID: 7353161219730314382, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219730314382, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6646,7 +6411,7 @@ PrefabInstance:
     - target: {fileID: 7353161219733421096, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161219733421096, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6716,7 +6481,7 @@ PrefabInstance:
     - target: {fileID: 7353161220007748176, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220007748176, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6726,7 +6491,7 @@ PrefabInstance:
     - target: {fileID: 7353161220042252325, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220042252325, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6736,7 +6501,7 @@ PrefabInstance:
     - target: {fileID: 7353161220067915546, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220067915546, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6776,7 +6541,7 @@ PrefabInstance:
     - target: {fileID: 7353161220216265966, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220216265966, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6861,7 +6626,7 @@ PrefabInstance:
     - target: {fileID: 7353161220480791415, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220480791415, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6901,7 +6666,7 @@ PrefabInstance:
     - target: {fileID: 7353161220583120635, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220583120635, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6931,7 +6696,7 @@ PrefabInstance:
     - target: {fileID: 7353161220616639007, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220616639007, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6951,7 +6716,7 @@ PrefabInstance:
     - target: {fileID: 7353161220730819199, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220730819199, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -6981,7 +6746,7 @@ PrefabInstance:
     - target: {fileID: 7353161220781692960, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 7353161220781692960, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
@@ -7098,6 +6863,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7353161220961012867, guid: 0343ad7a21544fe489a8837864a0e16f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7353161220994095102, guid: 0343ad7a21544fe489a8837864a0e16f,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7163,20 +6933,13 @@ GameObject:
   - component: {fileID: 1362490749}
   - component: {fileID: 1362490748}
   - component: {fileID: 1362490747}
-  - component: {fileID: 1362490753}
-  - component: {fileID: 1362490755}
   - component: {fileID: 1362490746}
   - component: {fileID: 1362490745}
   - component: {fileID: 1362490744}
   - component: {fileID: 1362490743}
-  - component: {fileID: 1362490757}
-  - component: {fileID: 1362490756}
-  - component: {fileID: 1362490754}
-  - component: {fileID: 1362490752}
+  - component: {fileID: 1362490753}
+  - component: {fileID: 1362490755}
   - component: {fileID: 1362490742}
-  - component: {fileID: 1362490760}
-  - component: {fileID: 1362490759}
-  - component: {fileID: 1362490758}
   m_Layer: 0
   m_Name: LyricSpawnSw_b
   m_TagString: Untagged
@@ -7207,7 +6970,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -7215,7 +6978,7 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Hit_1_d
+    key: Hit_1_d0
   itemTemplate: {fileID: 358482730352323930, guid: 8e98f99b3b3604fff89d2c0216358c7d,
     type: 3}
   itemTemplateId:
@@ -7228,7 +6991,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -7236,7 +6999,7 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Hit_1_c
+    key: Hit_1_c0
   itemTemplate: {fileID: 358482730352323930, guid: 93e3c7bbf19507947b24afffd0d25f14,
     type: 3}
   itemTemplateId:
@@ -7249,7 +7012,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -7257,7 +7020,7 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Hit_1_b
+    key: Hit_1_b0
   itemTemplate: {fileID: 358482730352323930, guid: 92207c0768b8aa549ac4449e47470dc4,
     type: 3}
   itemTemplateId:
@@ -7270,7 +7033,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -7278,7 +7041,7 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Hit_1_a
+    key: Hit_1_a0
   itemTemplate: {fileID: 358482730352323930, guid: e6692194263e84ff9bd759875181d4cb,
     type: 3}
   itemTemplateId:
@@ -7373,27 +7136,6 @@ Transform:
   m_Father: {fileID: 1872798926}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1362490752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  key:
-    target: 0
-    key: Hit_2_d
-  itemTemplate: {fileID: 358482730352323930, guid: 92107cdd103eb45febbfe7c8efbc20dc,
-    type: 3}
-  itemTemplateId:
-    value: 426032683598014546
-  spawnPoint: {fileID: 534579193}
 --- !u!114 &1362490753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7401,27 +7143,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  key:
-    target: 0
-    key: Active_1_b0
-  itemTemplate: {fileID: 4081625359393424498, guid: 1d49e563107f5f74b949babcc6cf3e5c,
-    type: 3}
-  itemTemplateId:
-    value: 1586999399744815553
-  spawnPoint: {fileID: 1954620541}
---- !u!114 &1362490754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
@@ -7430,12 +7151,12 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Hit_2_c
-  itemTemplate: {fileID: 358482730352323930, guid: 64d1699c97d81480c8481569ecada8e4,
+    key: Active_1_b
+  itemTemplate: {fileID: 4081625359393424498, guid: 1d49e563107f5f74b949babcc6cf3e5c,
     type: 3}
   itemTemplateId:
-    value: 13451192065151918596
-  spawnPoint: {fileID: 534579193}
+    value: 1586999399744815553
+  spawnPoint: {fileID: 1954620541}
 --- !u!114 &1362490755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7443,7 +7164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362490741}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -7451,108 +7172,12 @@ MonoBehaviour:
   item: {fileID: 1362490747}
   key:
     target: 0
-    key: Active_2_b0
+    key: Active_2_b
   itemTemplate: {fileID: 5486705797159601041, guid: a8d197560305856459d8a86984eaa881,
     type: 3}
   itemTemplateId:
     value: 9532033420582957619
   spawnPoint: {fileID: 1480850729}
---- !u!114 &1362490756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  key:
-    target: 0
-    key: Hit_2_b
-  itemTemplate: {fileID: 358482730352323930, guid: 37f87cfc6faf94ce6989d5f1a0136c30,
-    type: 3}
-  itemTemplateId:
-    value: 5289254758461979941
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1362490757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  key:
-    target: 0
-    key: Hit_2_a
-  itemTemplate: {fileID: 358482730352323930, guid: 7871a6931a6754fd3a3f2b66ee32f407,
-    type: 3}
-  itemTemplateId:
-    value: 9863832968545911742
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1362490758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  collisionEventType: 0
-  collisionType: 1
-  triggers:
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: Warp_Lyric
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
---- !u!114 &1362490759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 557c1287071b147459bb6f001560c6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1362490747}
-  rb: {fileID: 1362490760}
---- !u!54 &1362490760
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362490741}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1366190857
 GameObject:
   m_ObjectHideFlags: 0
@@ -8665,7 +8290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1657983314
 Transform:
   m_ObjectHideFlags: 0
@@ -9047,20 +8672,13 @@ GameObject:
   - component: {fileID: 1776574434}
   - component: {fileID: 1776574433}
   - component: {fileID: 1776574432}
-  - component: {fileID: 1776574437}
-  - component: {fileID: 1776574440}
   - component: {fileID: 1776574431}
   - component: {fileID: 1776574430}
   - component: {fileID: 1776574429}
   - component: {fileID: 1776574428}
-  - component: {fileID: 1776574442}
-  - component: {fileID: 1776574441}
-  - component: {fileID: 1776574439}
-  - component: {fileID: 1776574438}
+  - component: {fileID: 1776574437}
+  - component: {fileID: 1776574440}
   - component: {fileID: 1776574427}
-  - component: {fileID: 1776574445}
-  - component: {fileID: 1776574444}
-  - component: {fileID: 1776574443}
   m_Layer: 0
   m_Name: LyricSpawnSw_d
   m_TagString: Untagged
@@ -9091,7 +8709,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9099,7 +8717,7 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Hit_1_d
+    key: Hit_1_d0
   itemTemplate: {fileID: 358482730352323930, guid: 8e98f99b3b3604fff89d2c0216358c7d,
     type: 3}
   itemTemplateId:
@@ -9112,7 +8730,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9120,7 +8738,7 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Hit_1_c
+    key: Hit_1_c0
   itemTemplate: {fileID: 358482730352323930, guid: 93e3c7bbf19507947b24afffd0d25f14,
     type: 3}
   itemTemplateId:
@@ -9133,7 +8751,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9141,7 +8759,7 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Hit_1_b
+    key: Hit_1_b0
   itemTemplate: {fileID: 358482730352323930, guid: 92207c0768b8aa549ac4449e47470dc4,
     type: 3}
   itemTemplateId:
@@ -9154,7 +8772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9162,7 +8780,7 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Hit_1_a
+    key: Hit_1_a0
   itemTemplate: {fileID: 358482730352323930, guid: e6692194263e84ff9bd759875181d4cb,
     type: 3}
   itemTemplateId:
@@ -9264,7 +8882,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9272,54 +8890,12 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Active_1_d0
+    key: Active_1_d
   itemTemplate: {fileID: 2756676400194583638, guid: 9c0958148c0496d44aa1d3279bf6fbbd,
     type: 3}
   itemTemplateId:
     value: 6840645940031669374
   spawnPoint: {fileID: 464721974}
---- !u!114 &1776574438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  key:
-    target: 0
-    key: Hit_2_d
-  itemTemplate: {fileID: 358482730352323930, guid: 92107cdd103eb45febbfe7c8efbc20dc,
-    type: 3}
-  itemTemplateId:
-    value: 426032683598014546
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1776574439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  key:
-    target: 0
-    key: Hit_2_c
-  itemTemplate: {fileID: 358482730352323930, guid: 64d1699c97d81480c8481569ecada8e4,
-    type: 3}
-  itemTemplateId:
-    value: 13451192065151918596
-  spawnPoint: {fileID: 534579193}
 --- !u!114 &1776574440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9327,7 +8903,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776574426}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9335,108 +8911,12 @@ MonoBehaviour:
   item: {fileID: 1776574432}
   key:
     target: 0
-    key: Active_2_d0
+    key: Active_2_d
   itemTemplate: {fileID: 8580372473950853262, guid: f00740709d9616e42a048e2d42340fbe,
     type: 3}
   itemTemplateId:
     value: 6394375314314536620
   spawnPoint: {fileID: 339051011}
---- !u!114 &1776574441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  key:
-    target: 0
-    key: Hit_2_b
-  itemTemplate: {fileID: 358482730352323930, guid: 37f87cfc6faf94ce6989d5f1a0136c30,
-    type: 3}
-  itemTemplateId:
-    value: 5289254758461979941
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1776574442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  key:
-    target: 0
-    key: Hit_2_a
-  itemTemplate: {fileID: 358482730352323930, guid: 7871a6931a6754fd3a3f2b66ee32f407,
-    type: 3}
-  itemTemplateId:
-    value: 9863832968545911742
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1776574443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  collisionEventType: 0
-  collisionType: 1
-  triggers:
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: Warp_Lyric
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
---- !u!114 &1776574444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 557c1287071b147459bb6f001560c6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1776574432}
-  rb: {fileID: 1776574445}
---- !u!54 &1776574445
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776574426}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1796025703
 GameObject:
   m_ObjectHideFlags: 0
@@ -9450,20 +8930,13 @@ GameObject:
   - component: {fileID: 1796025711}
   - component: {fileID: 1796025710}
   - component: {fileID: 1796025709}
-  - component: {fileID: 1796025714}
-  - component: {fileID: 1796025717}
   - component: {fileID: 1796025708}
   - component: {fileID: 1796025707}
   - component: {fileID: 1796025706}
   - component: {fileID: 1796025705}
-  - component: {fileID: 1796025719}
-  - component: {fileID: 1796025718}
-  - component: {fileID: 1796025716}
-  - component: {fileID: 1796025715}
+  - component: {fileID: 1796025714}
+  - component: {fileID: 1796025717}
   - component: {fileID: 1796025704}
-  - component: {fileID: 1796025722}
-  - component: {fileID: 1796025721}
-  - component: {fileID: 1796025720}
   m_Layer: 0
   m_Name: LyricSpawnSw_c
   m_TagString: Untagged
@@ -9494,7 +8967,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9502,7 +8975,7 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Hit_1_d
+    key: Hit_1_d0
   itemTemplate: {fileID: 358482730352323930, guid: 8e98f99b3b3604fff89d2c0216358c7d,
     type: 3}
   itemTemplateId:
@@ -9515,7 +8988,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9523,7 +8996,7 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Hit_1_c
+    key: Hit_1_c0
   itemTemplate: {fileID: 358482730352323930, guid: 93e3c7bbf19507947b24afffd0d25f14,
     type: 3}
   itemTemplateId:
@@ -9536,7 +9009,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9544,7 +9017,7 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Hit_1_b
+    key: Hit_1_b0
   itemTemplate: {fileID: 358482730352323930, guid: 92207c0768b8aa549ac4449e47470dc4,
     type: 3}
   itemTemplateId:
@@ -9557,7 +9030,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9565,7 +9038,7 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Hit_1_a
+    key: Hit_1_a0
   itemTemplate: {fileID: 358482730352323930, guid: e6692194263e84ff9bd759875181d4cb,
     type: 3}
   itemTemplateId:
@@ -9667,7 +9140,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9675,54 +9148,12 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Active_1_c0
+    key: Active_1_c
   itemTemplate: {fileID: 4902158123955560064, guid: 062d3e471de316140a955255284a9c56,
     type: 3}
   itemTemplateId:
     value: 1685577580328021872
   spawnPoint: {fileID: 1482904528}
---- !u!114 &1796025715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  key:
-    target: 0
-    key: Hit_2_d
-  itemTemplate: {fileID: 358482730352323930, guid: 92107cdd103eb45febbfe7c8efbc20dc,
-    type: 3}
-  itemTemplateId:
-    value: 426032683598014546
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1796025716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  key:
-    target: 0
-    key: Hit_2_c
-  itemTemplate: {fileID: 358482730352323930, guid: 64d1699c97d81480c8481569ecada8e4,
-    type: 3}
-  itemTemplateId:
-    value: 13451192065151918596
-  spawnPoint: {fileID: 534579193}
 --- !u!114 &1796025717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9730,7 +9161,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796025703}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
   m_Name: 
@@ -9738,108 +9169,12 @@ MonoBehaviour:
   item: {fileID: 1796025709}
   key:
     target: 0
-    key: Active_2_c0
+    key: Active_2_c
   itemTemplate: {fileID: 4365335867163468067, guid: ff6179889db98024daf16f0b699812b3,
     type: 3}
   itemTemplateId:
     value: 9403404024982186007
   spawnPoint: {fileID: 88538450}
---- !u!114 &1796025718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  key:
-    target: 0
-    key: Hit_2_b
-  itemTemplate: {fileID: 358482730352323930, guid: 37f87cfc6faf94ce6989d5f1a0136c30,
-    type: 3}
-  itemTemplateId:
-    value: 5289254758461979941
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1796025719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  key:
-    target: 0
-    key: Hit_2_a
-  itemTemplate: {fileID: 358482730352323930, guid: 7871a6931a6754fd3a3f2b66ee32f407,
-    type: 3}
-  itemTemplateId:
-    value: 9863832968545911742
-  spawnPoint: {fileID: 534579193}
---- !u!114 &1796025720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  collisionEventType: 0
-  collisionType: 1
-  triggers:
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: Warp_Lyric
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
---- !u!114 &1796025721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 557c1287071b147459bb6f001560c6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1796025709}
-  rb: {fileID: 1796025722}
---- !u!54 &1796025722
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796025703}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1809800758
 GameObject:
   m_ObjectHideFlags: 0
@@ -9857,7 +9192,6 @@ GameObject:
   - component: {fileID: 1809800759}
   - component: {fileID: 1809800767}
   - component: {fileID: 1809800765}
-  - component: {fileID: 1809800768}
   m_Layer: 14
   m_Name: Lyric1_c
   m_TagString: Untagged
@@ -9979,7 +9313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 583894630326536224
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u65B0\u3057\u3044SNS\u3067..."
 --- !u!135 &1809800765
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10033,24 +9367,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &1809800768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809800758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 1809800762}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &1872798925
 GameObject:
   m_ObjectHideFlags: 0
@@ -10117,7 +9433,6 @@ GameObject:
   - component: {fileID: 1872996206}
   - component: {fileID: 1872996213}
   - component: {fileID: 1872996205}
-  - component: {fileID: 1872996214}
   m_Layer: 14
   m_Name: Lyric2_d
   m_TagString: Untagged
@@ -10252,7 +9567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 7909414421507234054
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u3042\u3052\u3066\u3084\u3063\u305F\u3088..."
 --- !u!4 &1872996212
 Transform:
   m_ObjectHideFlags: 0
@@ -10293,24 +9608,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &1872996214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872996204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 1872996209}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &1910191343
 GameObject:
   m_ObjectHideFlags: 0
@@ -10744,7 +10041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2055609835
 Transform:
   m_ObjectHideFlags: 0
@@ -11382,7 +10679,6 @@ GameObject:
   - component: {fileID: 2111170958}
   - component: {fileID: 2111170965}
   - component: {fileID: 2111170957}
-  - component: {fileID: 2111170966}
   m_Layer: 14
   m_Name: Lyric2_a
   m_TagString: Untagged
@@ -11517,7 +10813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 16084414861235192197
-  itemName: "\u6B4C\u306E\u304B\u3051\u3089"
+  itemName: "\u6368\u3066\u305F\u6368\u3066\u305F\u306E..."
 --- !u!4 &2111170964
 Transform:
   m_ObjectHideFlags: 0
@@ -11558,24 +10854,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &2111170966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111170956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e089aee2af9045a3b57f8b230f52eb44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 2111170961}
-  key:
-    target: 0
-    key: Warp_Lyric
-  targetTransform: {fileID: 1480787417}
-  positionOnly: 0
 --- !u!1 &2143023616
 GameObject:
   m_ObjectHideFlags: 0
