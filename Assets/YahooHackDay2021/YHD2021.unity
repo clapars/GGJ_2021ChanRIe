@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 3681c42604d20c4459d69816ee28217e, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8b61ded2311fced43957d8c0b43fa8e0, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -423,12 +423,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!4 &307980919 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7353161220961012866, guid: 0343ad7a21544fe489a8837864a0e16f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1339170689}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &308032353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,6 +2783,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0343ad7a21544fe489a8837864a0e16f, type: 3}
+--- !u!4 &1339170690 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3650686114149368023, guid: 0343ad7a21544fe489a8837864a0e16f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1339170689}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1480787415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,7 +3626,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 307980919}
+  - {fileID: 1339170690}
   - {fileID: 2059100724}
   - {fileID: 1723208707}
   - {fileID: 645726054}
